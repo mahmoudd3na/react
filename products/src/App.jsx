@@ -5,6 +5,7 @@ import Home from './pages/Home'
 import Products from './pages/Products'
 import { data } from './store';
 import ProductItem from '../components/ProductItem';
+import Error from './pages/Error';
 
 
 
@@ -27,6 +28,7 @@ const router = createBrowserRouter([
   {
     path: '/',
     element: <Layout />,
+    errorElement: <Error />, 
     children: [
       {
         index: true,

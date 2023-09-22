@@ -1,0 +1,14 @@
+.items{
+    display: flex;
+    font-size: 20px;
+    color: orange;
+    justify-content: space-evenly;
+}
+.items p {
+    cursor: pointer;
+}
+h1{
+    display: flex;
+    justify-content: center; /* Horizontally center */
+    align-items: center; 
+}

@@ -5,8 +5,10 @@ export default function NavBar() {
     return (
         <>
             <div className="nav-bar">
-                <NavLink to="/" className="nav-link">Home</NavLink>
-                <NavLink to="/Products" className="nav-link">Products</NavLink>
+                <NavLink to="/" className={({isActive}) => isActive ? "nav-link-active" : "nav-link"} end>
+                    Home
+                </NavLink>
+                <NavLink to="/Products" className={({isActive} ) => isActive ? "nav-link-active" : "nav-link" } >Products</NavLink>
             </div>
         </>
     )

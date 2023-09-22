@@ -8,7 +8,7 @@ import ProductItem from '../components/ProductItem';
 import Error from './pages/Error';
 
 
-
+  
 const getProducts = () => {
   const productRouter = data.map(product => {
     return {

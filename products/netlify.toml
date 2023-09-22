@@ -1,3 +1,0 @@
-[build]
-  base = "../products"
-  publish = "../products"

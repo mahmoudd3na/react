@@ -10,9 +10,7 @@ function App() {
 
   useEffect(() => {
     if (localStorage.getItem("tasks")) {
-      // setTasks(JSON.parse(localStorage.getItem("tasks")))
-      localStorage.setItem("tasks", JSON.stringify([]));
-
+      setTasks(JSON.parse(localStorage.getItem("tasks")))
     }
   }, [])
 
